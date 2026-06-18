@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>POS SYSTEM</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="header-content">
+                <h2><a href="">Midnight <br> Cafe</a></h2>
+            </div>
+            <div class="sub-header">
+                <div class="add-product">
+                    <button type="button">
+                        <span>Add Product</span>
+                        <span class="add-product-icon">+</span>
+                    </button>
+                </div>
+                <div class="report">
+                    <a href="#">
+                        <span class="r-icon">Report</span>
+                        <img src="/Images/document.png" alt="report">
+                    </a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <a href="../group.html">
+                    <img src="Images/user_pfp.jpg" alt="User Profile">
+                    <span class="username">Group Member</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="search-cart">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search...">
+            </div>
+            <div class="cart">
+                <a href="">
+                    <img src="/Images/shopping-bag.png" alt="Cart">
+                </a>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="product-list">
+                <div class="category">
+                    <div data-cat="coffee" class="category-item">Coffee</div>
+                    <div data-cat="tea" class="category-item">Tea</div>
+                    <div data-cat="dessert" class="category-item">Dessert</div>
+                </div>
+                <div class="product-items">
+
+                    <!-- Coffee -->
+                    <div class="item coffee">
+                        <img src="/Images/Espresso.png" alt="espresso" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Espresso</span>
+                            <span class="price">$2.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/Americano.png" alt="americano" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Americano</span>
+                            <span class="price">$3.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/Latte.png" alt="latte" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Latte</span>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/Cappuccino.png" alt="cappuccino" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Cappuccino</span>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/Macchiato.png" alt="macchiato" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Macchiato</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/Mocha.png" alt="mocha" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Mocha</span>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/flat-white.png" alt="flat white" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Flat White</span>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/cortado.png" alt="cortado" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Cortado</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/ristretto.png" alt="ristretto" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Ristretto</span>
+                            <span class="price">$2.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/long-black.png" alt="long black" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Long Black</span>
+                            <span class="price">$3.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/affogato.png" alt="affogato" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Affogato</span>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/irish-coffee.png" alt="irish coffee" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Irish Coffee</span>
+                            <span class="price">$6.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/vienna.jpg" alt="vienna coffee" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Vienna Coffee</span>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/turkish.png" alt="turkish coffee" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Turkish Coffee</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/cold-brew.png" alt="cold brew" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Cold Brew</span>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/nitro-brew.png" alt="nitro cold brew" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Nitro Cold Brew</span>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/caramel-latte.png" alt="caramel latte" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Caramel Latte</span>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item coffee">
+                        <img src="/Images/vanila latte.png" alt="vanilla latte" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Vanilla Latte</span>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <!-- Tea -->
+                    <div class="item tea">
+                        <img src="/Images/green-tea.png" alt="green tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Green Tea</span>
+                            <span class="price">$3.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/balck-tea.png" alt="black tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Black Tea</span>
+                            <span class="price">$3.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/oolong-tea.png" alt="oolong tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Oolong Tea</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/white-tea.png" alt="white tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">White Tea</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/puerh-tea.jpg" alt="pu-erh tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Pu-erh Tea</span>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/darjeeling-tea.png" alt="darjeeling" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Darjeeling</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/assam-tea.png" alt="assam" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Assam</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/earlgrey-tea.jpeg" alt="earlgrey" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Earl Grey</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/engbreakfast-ttea.png" alt="english breakfast" class="item-image">
+                        <div class="item-info">
+                            <span class="name">English Breakfast</span>
+                            <span class="price">$3.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/jasmine-tea.png" alt="jasmine tea" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Jasmine Tea</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/chamomile-tea.png" alt="chanmomile" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Chamomile</span>
+                            <span class="price">$3.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/peppermint-tea.png" alt="peppermint" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Peppermint Tea</span>
+                            <span class="price">$3.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">                        
+                        <img src="/Images/lemongrass-tea.png" alt="lemongrass" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Lemongrass Tea</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/hibicus-tea.png" alt="hibicus" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Hibiscus Tea</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/rooibos-tea.png" alt="rooibos" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Rooibos</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/macha-tea.png" alt="matcha" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Matcha</span>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/sencha-tea.png" alt="sencha" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Sencha</span>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item tea">
+                        <img src="/Images/gen-tea.jpg" alt="genmaicha" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Genmaicha</span>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <!-- Dessert -->
+                    <div class="item dessert">
+                        <img src="/Images/chocolate-cake.jpg" alt="chocolatecake" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Chocolate Cake</span>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/cheesecake.png" alt="cheesecake" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Cheesecake</span>
+                            <span class="price">$6.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/tiramisu.png" alt="tiramisu" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Tiramisu</span>
+                            <span class="price">$6.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/brownie.png" alt="brownie" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Brownie</span>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/cupcake.png" alt="cupcake" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Cupcake</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/macaron.png" alt="macaron" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Macaron</span>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/eclair.png" alt="eclair" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Eclair</span>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/donut.png" alt="donut" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Donut</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/crossant.png" alt="croissant" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Croissant</span>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/applepie.png" alt="apple pie" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Apple Pie</span>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/banoffepie.jpg" alt="banoffe pie" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Banoffee Pie</span>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/carrotcake.png" alt="carrot cake" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Carrot Cake</span>
+                            <span class="price">$5.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/redvelvet.png" alt="red velvet cake" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Red Velvet Cake</span>
+                            <span class="price">$5.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/pannacotta.png" alt="panna cotta" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Panna Cotta</span>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/creambrulee.png" alt="creambrulee" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Creme Brulee</span>
+                            <span class="price">$6.00</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/mousse.png" alt="mousse" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Mousse</span>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/icecream.png" alt="ice cream" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Ice Cream</span>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                    <div class="item dessert">
+                        <img src="/Images/gelato.png" alt="gelato" class="item-image">
+                        <div class="item-info">
+                            <span class="name">Gelato</span>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <div class="add-btn">+</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="order-sidebar">
+
+                <div class="receipt-header">
+                    <h2>Purchase Receipt</h2>
+                </div>
+
+                <div class="customer-info">
+                    <label>
+                        Customer Name:
+                        <input type="text" id="customer-name" required>
+                    </label>
+
+                    <label>
+                        Table No:
+                        <select id="table-no" required>
+                            <option value="">Select Table</option>
+                            <option value="B12">B12 - Indoor</option>
+                            <option value="A5">A5 - Outdoor</option>
+                            <option value="C3">C3 - Balcony</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Discount %:
+                        <input type="number" id="discount" min="0" max="100" placeholder="0">
+                    </label>
+                </div>
+
+                <div class="receipt-items">
+                    <p>No items added</p>
+                </div>
+
+                <div class="receipt-footer">
+                    <div>
+                        <span>Subtotal</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+
+                    <div>
+                        <span>Tax</span>
+                        <span id="tax">$0.00</span>
+                    </div>
+
+                    <div class="total">
+                        <span>Total</span>
+                        <span id="total">$0.00</span>
+                    </div>
+
+                    <button id="place-order">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+    <script src="JS/orderDetails.js"></script>
+
+</body>
+
+</html>
